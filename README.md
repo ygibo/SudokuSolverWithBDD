@@ -21,8 +21,7 @@ System.out.println("node num " + solver.getSize());
 System.out.println("hash size " + solver.getHashSize());
 System.out.println("cache size " + solver.getCacheSize());
 
-このように実行すると  
-、
+このように実行すると、
 create constrain. time is 2004ms  
 ------------------  
 Answer No.1  
@@ -47,8 +46,8 @@ cache size 1755652
 を表示している。
 
 ## プログラムの説明  
-SudokuSolverWithBDD/src/BddTools/BddNodeStore.java　は、作成した BDD ライブラリ
-SudokuSolverWithBDD/src/SudokuSolver.java　で、BDD ライブラリを利用し数独の制約を表す BDD を作成している
+SudokuSolverWithBDD/src/BddTools/BddNodeStore.java　は、作成した BDD ライブラリ  
+SudokuSolverWithBDD/src/SudokuSolver.java　で、BDD ライブラリを利用し数独の制約を表す BDD を作成している  
 数独の制約を BDD で表現するために、各マスが１～９のどれか数字を使用したことを表す変数を導入している。
 この変数の1-枝、0-枝ををたどることで、そのマスが数字 d を取る、取らないを表現している。
 
