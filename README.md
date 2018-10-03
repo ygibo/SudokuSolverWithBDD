@@ -21,7 +21,7 @@ System.out.println("node num " + solver.getSize());
 System.out.println("hash size " + solver.getHashSize());
 System.out.println("cache size " + solver.getCacheSize());
 
-このように実行すると、
+このように実行すると、  
 create constrain. time is 2004ms  
 ------------------  
 Answer No.1  
