@@ -22,7 +22,7 @@ System.out.println("hash size " + solver.getHashSize());
 System.out.println("cache size " + solver.getCacheSize());
 
 このように実行すると、  
-create constrain. time is 2004ms  
+  create constrain. time is 2004ms  
 ------------------  
 Answer No.1  
 3 2 9 8 5 1 7 4 6   
